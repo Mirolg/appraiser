@@ -140,25 +140,6 @@ p {
   margin: 20px;
 }
 
-
-
-/* Pricing Section */
-
-#pricing {
-  padding: 100px;
-}
-
-.card-text {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-.card-column {
-  padding: 3% 2%;
-}
-
-
-
 .social-icon {
   margin: 20px 0px;
   color: white;
@@ -180,8 +161,5 @@ p {
   .title-image {
     position: static;
     transform: rotate(0);
-  }
-  .social-icon-text {
-    font-size: 25px;
   }
 }
