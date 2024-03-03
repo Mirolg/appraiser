@@ -34,7 +34,7 @@ p {
 /* Sections */
 
 .colored-section {
-  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-image: linear-gradient(135deg, #5f6a7c 0%, #c3cfe2 100%);
   color: #fff;
 }
 
@@ -103,14 +103,17 @@ p {
 }
 
 .icon {
-  color: rgb(74, 127, 207);
+  color: rgb(124, 130, 139);
   margin-bottom: 1rem;
 }
 
 .icon:hover {
-  color: blue;
+  color: rgb(50, 56, 66);;
 }
 
+.fa-heart:hover {
+  color: red;
+}
 /* about me section */
 .about {
   padding: 20px;
@@ -120,24 +123,17 @@ p {
   color: #fff;
   line-height: 1.5;
 }
-/* slider Section */
-.carousel-control-prev-icon{
-  background-color: #8f8f8f;
-  border-radius: 5px;
-}
-.carousel-control-next-icon{
-  background-color: #8f8f8f;
-  border-radius: 5px;
-}
-.slider-text {
-  font-size: 3rem;
-  line-height: 1.5;
-}
+/* Ofert section */
 
-.slider-image {
-  width: 15%;
-  border-radius: 100%;
-  margin: 20px;
+.ofert-heading {
+  font-size: 2.5rem;
+  margin: 40px;
+  color: #6e7074;
+}
+.ofert-text {
+  font-size: 1.5rem;
+  color: #747474;
+  line-height: 1.5;
 }
 
 .social-icon {
@@ -148,10 +144,7 @@ p {
   color: #8f8f8f;
 }
 
-/* Slider section */
-.carousel {
-  min-height: 500px;
-}
+
 @media (max-width: 1028px) {
 
   #title {
