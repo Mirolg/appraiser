@@ -74,6 +74,7 @@ p {
 }
 
 #title .container-fluid {
+  height: 500px;
   padding: 3% 15% 7%;
 }
 
@@ -82,7 +83,7 @@ p {
 .title-image {
   top: 40px;
   border-radius: 20px;
-  width: 60%;
+  width: 50%;
   transform: rotate(-25deg);
   position: absolute;
   right: 30%;
@@ -144,6 +145,10 @@ p {
   color: #8f8f8f;
 }
 
+
+.contact-icon{
+  color: white;
+}
 
 @media (max-width: 1028px) {
 
